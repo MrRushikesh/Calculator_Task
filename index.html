@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./style.css" type="text/css"/>
+       
+    </head>
+    <body>
+        <div class="container">
+            <input type="text" id="result" readonly />
+            <div class="btn">
+                <button>ON</button>
+                <button>OFF</button>
+                <button class="item1" onclick="clearDisplay()">Clear</button>
+                <button class="item2" onclick="addOperator('-')">-</button>
+                <button class="item3" onclick="addNumber('7')">7</button>
+                <button class="item4" onclick="addNumber('8')">8</button>
+                <button class="item5" onclick="addNumber('9')">9</button>
+                <button class="item6" onclick="addOperator('*')">*</button>
+                <button class="item7" onclick="addNumber('4')">4</button>
+                <button class="item8" onclick="addNumber('5')">5</button>
+                <button class="item9" onclick="addNumber('6')">6</button>
+                <button class="item10" onclick="addOperator('/')">/</button>
+                <button class="item11" onclick="addNumber('1')">1</button>
+                <button class="item12" onclick="addNumber('2')">2</button>
+                <button class="item13" onclick="addNumber('3')">3</button>
+                <button class="item14" onclick="addOperator('+')">+</button>
+                <button class="item15" onclick="addNumber('00')">00</button>
+                <button class="item16" onclick="addNummber('0')">0</button>
+                <button class="item17" onclick="addNumber('.')">.</button>
+                <button class="item18" onclick="calculate()">=</button> 
+            </div>
+        </div>
+        
+        <script src="script.js" lang="javascript" type="text/javascript"></script>
+    </body>
+</html>
